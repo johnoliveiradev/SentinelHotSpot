@@ -1,0 +1,17 @@
+RESULTS-ONLY EXECUTIVE SUMMARY
+Generated (UTC): 2025-12-19T10:51:30Z
+
+Case: Config A | n: 1 -> 4
+  λ (edge-disjoint paths): 4 -> 32 | x8.00
+  J_max (worst hotspot): 0.25 -> 0.040403193552747296 | -83.84%
+  R_rel (R_eff/length): 0.25 -> 0.012846089829855176 | -94.86%
+
+Case: Config B | n: 1 -> 4
+  λ (edge-disjoint paths): 7 -> 106 | x15.14
+  J_max (worst hotspot): 0.14285714285714285 -> 0.016821733270770356 | -88.22%
+  R_rel (R_eff/length): 0.14285714285714285 -> 0.006208199543460532 | -95.65%
+
+Case: Config C | n: 1 -> 4
+  λ (edge-disjoint paths): 7 -> 136 | x19.43
+  J_max (worst hotspot): 0.14285714285714285 -> 0.015342440452062567 | -89.26%
+  R_rel (R_eff/length): 0.14285714285714285 -> 0.005417055864344512 | -96.21%

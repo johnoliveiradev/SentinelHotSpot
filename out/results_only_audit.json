@@ -1,0 +1,180 @@
+{
+  "report_type": "results_only_audit",
+  "created_utc": "2025-12-19T10:51:30Z",
+  "input": {
+    "path": "xi_audit_moore_thickening_n1to4.json",
+    "sha256": "8bb4a66b2fc136b678e0f2ab3e9faf61204aa95778e83f4ba43cbc8f010aaf0e"
+  },
+  "environment": {
+    "python": "3.14.0",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "results": {
+    "rows": [
+      {
+        "case": "Config A",
+        "n": 1,
+        "grid_N": 3,
+        "lambda": 4,
+        "R_eff": 0.5,
+        "R_rel": 0.25,
+        "J_max": 0.25,
+        "J_gini": 0.0
+      },
+      {
+        "case": "Config A",
+        "n": 2,
+        "grid_N": 9,
+        "lambda": 8,
+        "R_eff": 0.667147865236259,
+        "R_rel": 0.08339348315453238,
+        "J_max": 0.14784259450228732,
+        "J_gini": 0.32461372765190705
+      },
+      {
+        "case": "Config A",
+        "n": 3,
+        "grid_N": 27,
+        "lambda": 16,
+        "R_eff": 0.8289007515519848,
+        "R_rel": 0.031880798136614805,
+        "J_max": 0.07721341846623447,
+        "J_gini": 0.3729330636455866
+      },
+      {
+        "case": "Config A",
+        "n": 4,
+        "grid_N": 81,
+        "lambda": 32,
+        "R_eff": 1.027687186388414,
+        "R_rel": 0.012846089829855176,
+        "J_max": 0.040403193552747296,
+        "J_gini": 0.4036625644700035
+      },
+      {
+        "case": "Config B",
+        "n": 1,
+        "grid_N": 3,
+        "lambda": 7,
+        "R_eff": 0.2857142857142857,
+        "R_rel": 0.14285714285714285,
+        "J_max": 0.14285714285714285,
+        "J_gini": 0.25
+      },
+      {
+        "case": "Config B",
+        "n": 2,
+        "grid_N": 9,
+        "lambda": 22,
+        "R_eff": 0.33242406187332313,
+        "R_rel": 0.04155300773416539,
+        "J_max": 0.05252254312384835,
+        "J_gini": 0.275022851981361
+      },
+      {
+        "case": "Config B",
+        "n": 3,
+        "grid_N": 27,
+        "lambda": 50,
+        "R_eff": 0.40327989148802096,
+        "R_rel": 0.015510765057231575,
+        "J_max": 0.031095848610676213,
+        "J_gini": 0.3254263774373296
+      },
+      {
+        "case": "Config B",
+        "n": 4,
+        "grid_N": 81,
+        "lambda": 106,
+        "R_eff": 0.49665596347684254,
+        "R_rel": 0.006208199543460532,
+        "J_max": 0.016821733270770356,
+        "J_gini": 0.36229667329242754
+      },
+      {
+        "case": "Config C",
+        "n": 1,
+        "grid_N": 3,
+        "lambda": 7,
+        "R_eff": 0.2857142857142857,
+        "R_rel": 0.14285714285714285,
+        "J_max": 0.14285714285714285,
+        "J_gini": 0.25
+      },
+      {
+        "case": "Config C",
+        "n": 2,
+        "grid_N": 9,
+        "lambda": 25,
+        "R_eff": 0.3200000000000004,
+        "R_rel": 0.04000000000000005,
+        "J_max": 0.04000000000000015,
+        "J_gini": 0.24999999999999986
+      },
+      {
+        "case": "Config C",
+        "n": 3,
+        "grid_N": 27,
+        "lambda": 62,
+        "R_eff": 0.3602046104095533,
+        "R_rel": 0.013854023477290513,
+        "J_max": 0.026648294556063212,
+        "J_gini": 0.297871812635045
+      },
+      {
+        "case": "Config C",
+        "n": 4,
+        "grid_N": 81,
+        "lambda": 136,
+        "R_eff": 0.433364469147561,
+        "R_rel": 0.005417055864344512,
+        "J_max": 0.015342440452062567,
+        "J_gini": 0.34199628484017486
+      }
+    ],
+    "improvements": {
+      "Config A": {
+        "n_start": 1,
+        "n_end": 4,
+        "lambda_start": 4,
+        "lambda_end": 32,
+        "lambda_multiplier": 8.0,
+        "Jmax_start": 0.25,
+        "Jmax_end": 0.040403193552747296,
+        "Jmax_reduction_pct": 83.83872257890108,
+        "Rrel_start": 0.25,
+        "Rrel_end": 0.012846089829855176,
+        "Rrel_reduction_pct": 94.86156406805793
+      },
+      "Config B": {
+        "n_start": 1,
+        "n_end": 4,
+        "lambda_start": 7,
+        "lambda_end": 106,
+        "lambda_multiplier": 15.142857142857142,
+        "Jmax_start": 0.14285714285714285,
+        "Jmax_end": 0.016821733270770356,
+        "Jmax_reduction_pct": 88.22478671046075,
+        "Rrel_start": 0.14285714285714285,
+        "Rrel_end": 0.006208199543460532,
+        "Rrel_reduction_pct": 95.65426031957763
+      },
+      "Config C": {
+        "n_start": 1,
+        "n_end": 4,
+        "lambda_start": 7,
+        "lambda_end": 136,
+        "lambda_multiplier": 19.428571428571427,
+        "Jmax_start": 0.14285714285714285,
+        "Jmax_end": 0.015342440452062567,
+        "Jmax_reduction_pct": 89.2602916835562,
+        "Rrel_start": 0.14285714285714285,
+        "Rrel_end": 0.005417055864344512,
+        "Rrel_reduction_pct": 96.20806089495883
+      }
+    }
+  },
+  "disclosure": {
+    "note": "Results-only output: aggregated metrics + derived deltas. No geometry, generation steps, or proprietary parameters."
+  }
+}
